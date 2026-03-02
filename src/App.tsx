@@ -31,13 +31,13 @@ function App() {
   return (
     <main className="portfolio">
       <nav className="mini-menu" aria-label="Main navigation">
-        <a href="#inicio">Home</a>
-        <a href="#proyectos">Projects</a>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
-        <a href="#contacto">Contact</a>
+        <a href="#contact">Contact</a>
       </nav>
 
-      <header className="hero">
+      <header id="home" className="hero">
         <p className="eyebrow">Cybersecurity Portfolio</p>
         <h1>
 Cybersecurity enthusiast focused on defensive operations, traffic analysis, and secure web infrastructure.
@@ -64,10 +64,10 @@ Cybersecurity enthusiast focused on defensive operations, traffic analysis, and 
           </p>
         </div>
         <div className="hero-actions">
-          <a href="#proyectos" className="btn primary">
+          <a href="#projects" className="btn primary">
             View Projects
           </a>
-          <a href="#contacto" className="btn ghost">
+          <a href="#contact" className="btn ghost">
             Contact
           </a>
         </div>
@@ -88,7 +88,7 @@ Cybersecurity enthusiast focused on defensive operations, traffic analysis, and 
         </article>
       </section>
 
-      <section id="proyectos" className="projects">
+      <section id="projects" className="projects">
         <div className="section-head">
           <h2>Projects</h2>
           <div className="filters" role="tablist" aria-label="Filter projects">
@@ -176,7 +176,7 @@ Cybersecurity enthusiast focused on defensive operations, traffic analysis, and 
         </div>
       </section>
 
-      <section id="contacto" className="contact">
+      <section id="contact" className="contact">
         <h2>Contact</h2>
         <p>Available here:</p>
         <div className="contact-links">
