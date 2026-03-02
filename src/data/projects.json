@@ -1,0 +1,50 @@
+[
+  {
+  "title": "Secure Plex Server Hardening",
+  "category": "Infrastructure Security",
+  "summary": "Deployment and security hardening of a self-hosted Plex media server including firewall configuration, secure remote access, and service isolation.",
+  "tools": "Linux, UFW Firewall, SSH Hardening, Port Forwarding, Plex Media Server",
+  "impact": "Reduced exposed attack surface by closing unnecessary ports and enforcing secure remote access configurations.",
+  "year": "2024"
+  },
+  {
+  "title": "Network Packet Analysis and Traffic Inspection",
+  "category": "Network Security",
+  "summary": "Deep packet inspection and traffic trace analysis using Wireshark to identify protocol behavior, TCP handshake processes, and plaintext credential exposure.",
+  "tools": "Wireshark, TCP/IP Analysis, HTTP/HTTPS Inspection",
+  "impact": "Detected insecure communications and proposed encryption and monitoring improvements to strengthen network visibility.",
+  "year": "2024"
+  },
+  {
+    "title": "Controlled Exploitation Lab with Kali Linux",
+    "category": "Red Team",
+    "summary": "Execution of controlled exploitation tests in a virtual lab environment using Kali Linux to identify vulnerabilities in intentionally vulnerable systems.",
+    "tools": "Kali Linux, Metasploit, Nmap, Netcat",
+    "impact": "Identified critical vulnerabilities and documented mitigation strategies to prevent privilege escalation and remote code execution.",
+    "year": "2025"
+  },
+  {
+    "title": "Man-in-the-Middle Attack Simulation",
+    "category": "Offensive Security",
+    "summary": "Simulation of Man-in-the-Middle (MITM) attacks within a controlled lab network to demonstrate credential interception and traffic manipulation risks.",
+    "tools": "Kali Linux, Ettercap, ARP Spoofing, Wireshark",
+    "impact": "Demonstrated risks of unencrypted protocols and validated mitigation through HTTPS enforcement and network segmentation.",
+    "year": "2025"
+  },
+  {
+  "title": "Custom Port Scanner in Python",
+  "category": "Security Engineering",
+  "summary": "Built a multi-threaded Python port scanner to identify open TCP ports and basic service banners within a controlled lab environment.",
+  "tools": "Python, Sockets, Threading, TCP/IP",
+  "impact": "Improved understanding of network reconnaissance techniques and demonstrated how open services increase attack surface.",
+  "year": "2025"
+  },
+  {
+  "title": "Linux-Based Automated DDoS Detection with Real-Time Telegram Alerting",
+  "category": "Blue Team",
+  "summary": "Built a Python-driven monitoring solution on Linux to analyze web server logs and detect anomalous request thresholds indicative of potential DDoS activity, integrating automated mitigation and alerting workflows.",
+  "tools": "Python, Linux, Nginx/Apache Logs, iptables, Service Control (systemctl), Telegram Bot API",
+  "impact": "Enabled near real-time incident awareness and containment through automated IP blocking and Telegram-based security notifications, minimizing potential downtime in controlled attack simulations.",
+  "year": "2025"
+  }
+]
